@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-05T12:01:49.942Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="H2_pcqkFAalIJBRTD7Ix" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-05T13:42:18.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="BkittTU-sreeh3LmsT7P" version="21.0.2" type="github">
   <diagram name="Page-1" id="_3CbZEnP4_hHTU8bBA2z">
-    <mxGraphModel dx="2702" dy="2576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5236" dy="1906" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,7 +51,7 @@
         <mxCell id="kRnqQ11nKP4vqvpjo5fr-19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="kRnqQ11nKP4vqvpjo5fr-17" target="kRnqQ11nKP4vqvpjo5fr-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kRnqQ11nKP4vqvpjo5fr-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="kRnqQ11nKP4vqvpjo5fr-17">
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kRnqQ11nKP4vqvpjo5fr-17" target="kRnqQ11nKP4vqvpjo5fr-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460.5" y="154.4615102914663" as="targetPoint" />
           </mxGeometry>
@@ -75,7 +75,7 @@
             <mxPoint x="563.5384990985576" y="248.00000000000023" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kRnqQ11nKP4vqvpjo5fr-22" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-22" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="209" y="199" width="87" height="92" as="geometry" />
         </mxCell>
         <mxCell id="kRnqQ11nKP4vqvpjo5fr-29" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kRnqQ11nKP4vqvpjo5fr-20" target="kRnqQ11nKP4vqvpjo5fr-18">
@@ -182,7 +182,7 @@
         <mxCell id="kRnqQ11nKP4vqvpjo5fr-62" value="Not valid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-242" y="632" width="126" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="kRnqQ11nKP4vqvpjo5fr-66" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-66" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-215" y="927" width="109" height="89" as="geometry" />
         </mxCell>
         <mxCell id="kRnqQ11nKP4vqvpjo5fr-69" value="Valid user" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
@@ -217,8 +217,146 @@
         <mxCell id="kRnqQ11nKP4vqvpjo5fr-75" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="60" y="136" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kRnqQ11nKP4vqvpjo5fr-76" value="" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-193" y="-802" width="120" height="60" as="geometry" />
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-77" value="Browser" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2879" y="-417" width="179" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-78" value="Service&amp;nbsp;&lt;br&gt;Provider" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2226" y="-409" width="174" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-79" value="Identity&amp;nbsp;&lt;br&gt;Provider" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1635" y="-415" width="179" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2816" y="-277" width="26" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-82" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2779" y="-194" as="sourcePoint" />
+            <mxPoint x="-2163" y="-194" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-83" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2141" y="-266" width="26" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-84" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2147" y="-108" as="sourcePoint" />
+            <mxPoint x="-2773" y="-114" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-85" value="Request" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2528" y="-259.5" width="109" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-86" value="Authentication request" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2592" y="-152" width="252" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1531" y="-93" width="29" height="465" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-88" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2776" y="-20" as="sourcePoint" />
+            <mxPoint x="-1547" y="-16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-89" value="IDP login URL&lt;br&gt;SAML req" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2215" y="-18" width="127" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-90" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2779" y="128" as="sourcePoint" />
+            <mxPoint x="-1535" y="136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-91" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1543" y="296" as="sourcePoint" />
+            <mxPoint x="-2783" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-92" value="SAML response/SAML Token" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2283.5" y="256" width="264" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-94" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2144" y="396" width="21" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-95" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2781" y="443" as="sourcePoint" />
+            <mxPoint x="-2148" y="443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-96" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2155" y="525" as="sourcePoint" />
+            <mxPoint x="-2780" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-97" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;-- Verify Signature&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;-- velidate SAML response&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;--Authenticate user&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;--serve requested resoursce&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2235" y="393" width="543" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-98" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;-- Verify request signature&lt;br&gt;-- Parse SAML req&lt;br&gt;--Authenticate user&lt;br&gt;--Generate SAML res&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1608" y="-25" width="559" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-99" value="User Authentication" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2169" y="136" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-100" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;--Recognise user not logged in&lt;br&gt;--Generate &amp;amp; sign SAML req&lt;br&gt;--Redirect to idp login url&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2100" y="-214" width="300" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-101" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Browser&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2937" y="843" width="275" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-102" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Identity Provider&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1623" y="833" width="275" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-103" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Service Provider&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2241" y="846" width="275" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-104" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2830" y="1004" width="10" height="676" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-105" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2816" y="1129" as="sourcePoint" />
+            <mxPoint x="-1470" y="1133" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-107" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1466" y="1021" width="10" height="266" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-108" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1482" y="1233" as="sourcePoint" />
+            <mxPoint x="-2813" y="1229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-109" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2110" y="1386" width="10" height="272" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-110" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2802" y="1413" as="sourcePoint" />
+            <mxPoint x="-2120" y="1413" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-111" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2126" y="1627" as="sourcePoint" />
+            <mxPoint x="-2803" y="1627" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-112" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;Generate &amp;amp; sign&amp;nbsp;&lt;br&gt;SAML assertion&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="1119" width="249" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-113" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;--Verify signature&lt;br&gt;--Validate SAML user&lt;br&gt;--Authenticate user&lt;br&gt;--Return resource&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2156" y="1441" width="359" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-115" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Send SAML Assertion&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2266" y="1191" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRnqQ11nKP4vqvpjo5fr-116" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;SAML req in XML fromat&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1475" y="3" width="334" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
