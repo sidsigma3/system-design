@@ -45,8 +45,12 @@ a:hover{
 .left{
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(8, 1, 1, 0.5)), url(Content.gif);
     background-size: cover;
+    position: relative;
 }
 .left .copy{
+    position: absolute;
+    top: 0;
+    left: 0;
     color: rgb(253, 253, 253);
     text-align: center;
     -webkit-font-smoothing: antialiased;
@@ -159,6 +163,21 @@ label{
     background: #083b4b;
     cursor: pointer;
 }
+.phone-number {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#country-code {
+    width: 60px;
+    margin-right: 10px;
+}
+
+#phone-number {
+    width: calc(100% - 70px);
+}
+
 
 @media screen and (min-width: 700px) {
     .split-screen{
