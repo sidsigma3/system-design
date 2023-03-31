@@ -106,6 +106,7 @@ label{
     width: 0;
 }
 
+
 .checkbox-container{
     display: block;
     position: relative;
@@ -119,6 +120,11 @@ label{
     background-color: var(--primary-blue);
     border: 1px solid var(--primary-blue);
 }
+.forgot-password {
+    margin-left: auto;
+    text-decoration: none;
+    color: #666;
+  }
 
 .checkmark{
     position: absolute;
