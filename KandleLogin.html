@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="KandleLogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-6K1Ab6QwR6n0d6j+U6YzH9JrByo8j/5bPMa5+Ubc2eRw8Rd0jrrUuY6+W5X9gwHr6K5/BxsZ5GIgpoQNBR7wuw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
 <body>
     <div class="split-screen">
@@ -26,23 +29,48 @@
                 <div class="input-container password">
                     <label for="password">Password</label>
                     <input id="password" name="password" placeholder="Must be atleast 6 characters" type="password">
-                    <i class="far fa-eye-slash"></i>
-                </div>
+                    <i id="toggle-password" class="0xF0 0x9F 0x91 0x81"style="height: 35px;width: 40px;padding-top: 30px;">&#128065</i>
+                  </div>
                 <div class="input-container cta">
                     <label class="checkbox-container">
                       <input type="checkbox">
                       <span class="checkmark"></span>
                       Remember Me
                     </label>
-                    <a href="#" class="forgot-password">Forgot Password?</a>
+                    <a href="Forgetpass.html" class="forgot-password">Forgot Password?</a>
+                    <p class="signup-text">Don't have an account? <a href="KandleSignup.html">Sign Up here</a>.</p>
                   </div>
-                <button class="login-btn" type="submit"><a href="Kandle.html">LOGIN</a></button>
-                <section class="copy legal">
+                  <button class="login-btn" type="submit"><a href="Kandle.html">LOGIN</a></button>
+                  <section class="copy legal">
                     <p><span class="small">By continuing, you agree to accept our <br>
-                        <a href="#">Privacy Policy</a> &amp; <a href="#">Term of Service</a>.</span></p>
-                </section>
+                    <a href="#">Privacy Policy</a> &amp; <a href="#">Term of Service</a>.</span></p>
+                  </section>
             </form>
         </div>
     </div>
+
+ <!--JavaScript for toggle Menu-->
+
+
+ <script>
+    // Get the password input field and the eye icon
+const passwordInput = document.getElementById("password");
+const togglePassword = document.getElementById("toggle-password");
+
+// Add a click event listener to the eye icon
+togglePassword.addEventListener("click", function () {
+// Toggle the password visibility
+if (passwordInput.type === "password") {
+passwordInput.type = "text";
+togglePassword.classList.remove("fa-eye-slash");
+togglePassword.classList.add("fa-eye");
+} else {
+passwordInput.type = "password";
+togglePassword.classList.remove("fa-eye");
+togglePassword.classList.add("fa-eye-slash");
+}
+});
+</script>
+
 </body>
 </html>
