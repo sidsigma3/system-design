@@ -177,6 +177,13 @@ label{
 #phone-number {
     width: calc(100% - 70px);
 }
+.eyeid{
+    text-align: center;
+    padding-bottom:30px;
+}
+.eyeid:hover{
+    color:blue;
+}
 
 
 @media screen and (min-width: 700px) {
@@ -187,6 +194,6 @@ label{
     .left, .right {
         display: flex;
         width: 50%;
-        height: auto;
+        height: 110%;
     }
 }
