@@ -172,6 +172,13 @@ label{
     background: #065a6e;
     cursor: pointer;
 }
+.input-container.password i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    }
 
 @media screen and (min-width: 700px) {
     .split-screen{
